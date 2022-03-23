@@ -43,17 +43,54 @@
               <option value="very_bad">Very Bad</option>
             </select>
             <br> <br>
+            Did you find what you were looking for? <br>
+            <input type="radio" id = "yes" name = "find" value="Yes">                               
+            <label for = "yes">Yes</label><br>
+            <input type="radio" id = "no" name = "find" value="No">                                 
+            <label for = "no">No</label><br>
+            <input type="radio" id = "not_exactly" name = "find" value="No">                                 
+            <label for = "not_exactly">Not Exactly</label><br><br>
+
+            Which product categories are you most inTerested in? <br>
+             <div id = grid2>
+                  <div>
+                  <input type="checkbox" id = "M&E" name = "interest" value="Monitoring & Evaluation">
+                  <label for="M&E">Electronics</label>                                      </div>
+                  <div>
+                  <input type="checkbox" id = "h&g" name = "interest" value="Web Development"> 
+                  <label for="h&g">Home & Garden</label> 
+                   </div>
+                   <div>
+                  <input type="checkbox" id = "fasion" name = "interest" value="Data Science"> 
+            <label for = "fasion">Fasion</label>
+                  </div>
+                 <div>
+                  <input type="checkbox" id = "sport" name = "interest" value="Data Science"> 
+                  <label for = "sport">Sporting Goods</label> 
+                   </div>
+                    <div>
+                  <input type="checkbox" id = "auto" name = "interest" value="Data Science"> 
+                  <label for = "auto">Auto parts</label> 
+                    </div>
+                    <div>
+                  <input type="checkbox" id = "other" name = "interest" value="Data Science"> 
+                  <label for = "other">Other</label>               
+                   </div>
             </div>
-
-            <br> <br>
-
-
-            <div id = grid2>
-
-
-            </div>
-
             <br><br>
+
+            Please provide feedback on your shopping experience below.<br>
+            <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            rows="5"
+            placeholder="Type feedback here">           
+            </textarea><br><br>
+
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
           </form>
         </main>
       </div>
