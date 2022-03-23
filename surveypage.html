@@ -19,7 +19,30 @@
         <main>
           <form id="survey-form" method = "get">
             <div id=grid1>
+                <label id="name-label" for="name">Name: </label>
+              <input type="text" name="name" id="name" placeholder="First & Last Name" required class='txt'/><br>
 
+
+              <label id="email-label" for="email"> Email: </label>
+              <input type="email" name="email" id="email" placeholder="Email Adress" required class='txt' />
+
+              <br>
+
+              <label id="number-label" for="age">Age: </label>
+              <input type="number" name="age" id="number" min="1" max="200" placeholder="How old are you" required class='txt'/>
+            <div>
+
+            <br> <br>
+
+            <label id="rate-label" for="rate" >How best would you describe our services? </label><br>
+            <select name="rate" id="dropdown"  placeholder="Select an option">
+              <option value="very_good">Very Good</option>
+              <option value="good">Good</option>
+              <option value="ordinary">Ordinary</option>
+              <option value="bad">Bad</option>
+              <option value="very_bad">Very Bad</option>
+            </select>
+            <br> <br>
             </div>
 
             <br> <br>
